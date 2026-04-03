@@ -1,0 +1,64 @@
+{
+  "name": "ai-terminal-course",
+  "version": "1.0.0",
+  "description": "Understand what your AI tools are actually doing — 14 hands-on terminal modules",
+  "type": "module",
+  "bin": {
+    "ai-terminal-course": "./learn.js",
+    "ai-terminal": "./learn.js"
+  },
+  "files": [
+    "learn.js",
+    "modules/",
+    "lib/",
+    ".env.example",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node learn.js",
+    "learn": "node learn.js",
+    "test": "node learn.js"
+  },
+  "keywords": [
+    "ai",
+    "artificial-intelligence",
+    "llm",
+    "course",
+    "tutorial",
+    "cli",
+    "terminal",
+    "openai",
+    "machine-learning",
+    "education",
+    "rag",
+    "embeddings",
+    "agents",
+    "prompt-engineering",
+    "ai-engineering"
+  ],
+  "author": "josharsh <harsh.joshi.pth@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josharsh/ai-terminal-course.git"
+  },
+  "bugs": {
+    "url": "https://github.com/josharsh/ai-terminal-course/issues"
+  },
+  "homepage": "https://github.com/josharsh/ai-terminal-course#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "chalk": "^5.3.0",
+    "cli-table3": "^0.6.5",
+    "dotenv": "^16.4.7",
+    "figlet": "^1.8.0",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^12.2.0",
+    "openai": "^4.77.0",
+    "ora": "^8.1.1",
+    "zod": "^4.1.12"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

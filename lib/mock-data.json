@@ -1,0 +1,40 @@
+{
+  "completions": {
+    "hello": "Hello! I'm an AI assistant. How can I help you today?",
+    "explain_ai": "Artificial intelligence is the simulation of human intelligence by machines, enabling them to learn, reason, and make decisions based on data patterns.",
+    "haiku_programming": "Lines of logic flow,\nSilicon dreams come alive—\nBugs hide in the dawn.",
+    "sky_blue": "The sky appears blue because molecules in Earth's atmosphere scatter shorter wavelengths of sunlight (blue light) more than longer wavelengths. This is called Rayleigh scattering. When you look up, you see this scattered blue light from all directions.",
+    "name_color": "Blue",
+    "classify_positive": "positive",
+    "classify_negative": "negative",
+    "classify_neutral": "neutral",
+    "what_is_ai": "AI, or artificial intelligence, refers to computer systems designed to perform tasks that typically require human intelligence, such as understanding language, recognizing patterns, making decisions, and learning from experience.",
+    "pirate_ai": "Arrr, AI be like a magical parrot that learns from every word ye speak! It processes yer data like a treasure map, finding patterns in the digital seas!",
+    "extract_contact": "{\"name\": \"Sarah Chen\", \"email\": \"sarah.chen@techcorp.com\", \"phone\": \"(555) 123-4567\", \"company\": \"TechCorp\", \"title\": \"Senior Engineer\"}",
+    "weather_sf": "It's currently 68°F (20°C) in San Francisco with partly cloudy skies and a light breeze from the west.",
+    "calculate": "The result of 234 × 567 is 132,678.",
+    "sentiment_v1": "This review expresses mixed feelings. The reviewer found the product to be generally good but had some concerns about durability.",
+    "sentiment_v2": "positive",
+    "sentiment_v3": "positive",
+    "chain_of_thought": "Let me solve this step by step:\n1. Regular price per bag: $3\n2. First 3 bags qualify for 20% discount: 3 × $3 = $9, then 20% off = $9 × 0.80 = $7.20\n3. Remaining 2 bags at full price: 2 × $3 = $6\n4. Total: $7.20 + $6.00 = $13.20",
+    "email_professional": "Subject: Project Update\n\nDear Team,\n\nI wanted to share a quick update on our progress. We've completed the core features and are now in the testing phase. The timeline remains on track for our planned launch.\n\nPlease let me know if you have any questions.\n\nBest regards",
+    "rag_answer": "Based on the provided context, the answer is that retrieval-augmented generation (RAG) works by first searching a knowledge base for relevant documents, then passing those documents along with the user's question to an LLM to generate a grounded answer.",
+    "agent_reasoning": "Thought: The user wants to know the weather in two cities. I need to call the weather tool twice.\nAction: get_weather(\"San Francisco\")\nObservation: 68°F, partly cloudy\nAction: get_weather(\"New York\")\nObservation: 45°F, rainy\nAnswer: San Francisco is 68°F and partly cloudy, while New York is 45°F and rainy. SF is significantly warmer today.",
+    "default": "I understand your question. As an AI assistant, I can help with a wide range of topics including coding, analysis, writing, and problem-solving. Could you provide more details about what you'd like to know?"
+  },
+  "streaming_chunks": [
+    "The ", "sky ", "appears ", "blue ", "because ", "molecules ", "in ", "Earth's ",
+    "atmosphere ", "scatter ", "shorter ", "wavelengths ", "of ", "sunlight ", "(blue ",
+    "light) ", "more ", "than ", "longer ", "wavelengths. ", "This ", "phenomenon ",
+    "is ", "called ", "Rayleigh ", "scattering."
+  ],
+  "embeddings": {
+    "dimensions": 256,
+    "samples": {
+      "hello_world": [0.023, -0.045, 0.067, 0.012, -0.034, 0.089, -0.056, 0.078],
+      "programming": [0.034, 0.056, -0.023, 0.045, 0.067, -0.012, 0.089, -0.078],
+      "cooking": [-0.067, 0.023, 0.045, -0.089, 0.012, 0.034, -0.078, 0.056],
+      "machine_learning": [0.045, 0.067, -0.034, 0.056, 0.078, -0.023, 0.089, -0.012]
+    }
+  }
+}
