@@ -54,7 +54,7 @@
     "figlet": "^1.8.0",
     "gradient-string": "^2.0.2",
     "inquirer": "^12.2.0",
-    "openai": "^4.77.0",
+    "openai": "^7.47.0",
     "ora": "^8.1.1",
     "zod": "^4.1.12"
   },
